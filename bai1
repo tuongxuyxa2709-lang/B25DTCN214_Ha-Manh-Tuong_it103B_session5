@@ -1,0 +1,17 @@
+let List = [];
+let answer = prompt("ban muon tra bao nhieu cuon sach");
+console.log(answer);
+
+for(let i=0;i<answer;i++){
+    let number = prompt("moi ban nhap ten cuon sach thu :",i);
+    let name = prompt("ten cuon sach la ")
+    List.push(name);
+    
+
+    
+}
+console.log("tong so sach da tra la",answer);
+console.log("danh sach sach da tra la :");
+for(let i=0;i<answer;i++){
+    console.log(List[i]);
+}
